@@ -1,0 +1,276 @@
+.content {
+    margin: 50px auto 0;
+    height: 1450px;
+    width: 850px;
+    background-image: url(../img/10.jpg);
+    background-repeat: no-repeat;
+}
+
+.content_click {
+    margin: 50px auto 0;
+    height: 1450px;
+    width: 850px;
+    background-image: url(../img/10.2.jpg);
+    background-repeat: no-repeat;
+}
+
+.black {
+    position: absolute;
+    z-index: 300;
+    width: 100%;
+    height: 0;
+    background-color: black;
+    opacity: 0;
+}
+
+.black_click {
+    position: absolute;
+    z-index: 300;
+    width: 100%;
+    height: 245%;
+    background-color: black;
+    opacity: 0.7;
+    transition: opacity 0.3s linear 0.5s;
+}
+
+.curses {
+    position: absolute;
+    top: 70px;
+    right: 120px;
+    z-index: 400;
+    width: 0px;
+    height: 0px;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.curses_click {
+    position: absolute;
+    top: 70px;
+    right: 120px;
+    z-index: 400;
+    width: 450px;
+    height: 550px;
+    overflow-y: scroll;
+    background-color: white;
+    animation: move 2s 1 ease-in;
+}
+
+@keyframes move {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+    70% {
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        width: 450px;
+        height: 550px;
+    }
+}
+
+div hr {
+    margin-left: 20px;
+}
+
+#search {
+    height: 30px;
+    width: 340px;
+    border: 2px solid rgb(99, 184, 255);
+    border-radius: 10px;
+    margin: 20px 0 20px 20px;
+    display: inline-block;
+}
+
+#search p {
+    margin: 3px 7px;
+}
+
+#loup {
+    height: 32px;
+    width: 32px;
+    background-image: url(../img/lupa.png);
+    background-size: cover;
+    display: inline-block;
+    margin: -12px 3px;
+}
+
+.cours {
+    margin: 15px;
+}
+
+.cours h3 {
+    color: rgb(99, 184, 255);
+    font-size: 20px;
+}
+
+.popular {
+    height: 10px;
+    width: 80px;
+    margin-bottom: 5px;
+    background-color: rgb(247, 147, 30);
+    border-radius: 5px;
+    padding-bottom: 17px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.popular p {
+    font-weight: bold;
+}
+
+.new {
+    height: 10px;
+    width: 80px;
+    background-color: rgb(99, 184, 255);
+    border-radius: 5px;
+    padding-bottom: 17px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.new p {
+    font-weight: bold;
+}
+
+#otzyv {
+    margin: 10px 0px;
+    font-weight: bold;
+    color: black !important
+}
+
+.bottom {
+    border-radius: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bottom p {
+    margin-top: 5px;
+}
+
+#more {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(99, 184, 255);
+}
+
+#out {
+    height: 30px;
+    width: 250px;
+    background-color: rgb(247, 147, 30);
+    margin-left: 10px;
+}
+
+#err {
+    height: 700px;
+    width: 1000px;
+    background-image: url(../img/err.jpg);
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#back {
+    position: relative;
+    top: 560px;
+    height: 30px;
+    width: 320px;
+    background-color: rgb(247, 147, 30);
+    margin-left: 365px;
+}
+
+#unseen {
+    position: absolute;
+    top: -2000px;
+}
+
+#stars {
+    display: inline-block;
+    margin: 0 200px 0 5px;
+    margin-top: 0;
+    padding: 0;
+    height: 15px;
+    width: 100px;
+    background-image: url(../img/stars.jpg);
+    background-size: cover;
+}
+
+.otzyv {
+    display: inline-block;
+    margin-bottom: -15px;
+    margin-top: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#otzyv2 {
+    display: inline-block;
+    margin: 0 300px 0 0;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 13px;
+}
+
+#academy {
+    position: absolute;
+    right: 60px;
+    height: 55px;
+    width: 120px;
+    z-index: 500;
+    border-radius: 5px;
+    border: 3px solid rgb(99, 184, 255);
+    background-image: url(../img/htmlacademy.png);
+    background-size: cover;
+}
+
+#neit {
+    position: absolute;
+    right: 40px;
+    height: 50px;
+    width: 200px;
+    z-index: 500;
+    border-radius: 5px;
+    border: 3px solid rgb(99, 184, 255);
+    background-image: url(../img/netology.png);
+    background-size: cover;
+}
+
+#free {
+    position: absolute;
+    right: 40px;
+    height: 30px;
+    width: 200px;
+    z-index: 500;
+    border-radius: 5px;
+    border: 3px solid rgb(99, 184, 255);
+    background-image: url(../img/freeCC.png);
+    background-size: cover;
+}
+
+#close {
+    position: absolute;
+    border-radius: 5px;
+    right: 1px;
+    height: 27px;
+    width: 27px;
+    background-color: lightgray;
+    background-size: cover;
+}
+
+#close:hover {
+    position: absolute;
+    border-radius: 5px;
+    right: 1px;
+    height: 27px;
+    width: 27px;
+    background-color: gray;
+    background-size: cover;
+}

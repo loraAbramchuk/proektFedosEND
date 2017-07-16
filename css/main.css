@@ -1,0 +1,320 @@
+@font-face {
+    font-family: rrfr; /* Имя шрифта */
+    src: url('TriviaSansLight.otf'); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: hard; /* Имя шрифта */
+    src: url('TriviaSansRegular.otf'); /* Путь к файлу со шрифтом */
+   }
+
+
+
+.y,
+div, 
+.m-font, 
+.a1,
+.a11{
+  font-family: rrfr !important;
+  font-size: 30px;
+}
+
+.f-hrd,
+.proect h3 {
+  font-family: hard !important;
+  font-size: 30px;
+}
+
+[class*="col-"] {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-family: rrr;
+    height: auto;
+   }
+body { font-family: rrr !important;
+margin: 0 !important;}
+.rrrr {display: none;}
+
+/*div {border: 1px solid gray;}*/
+
+
+.t div {width: 20%;}
+
+
+.footer {height: auto;
+
+}
+
+/* лого */
+.lo {
+  width: 140%;
+  padding-top: 30%;
+}
+
+/* профиль пользователя в верхнем меню */
+.prof {
+  width: 90%;
+  padding-top: 60%;   
+}
+.prof:hover {filter: sepia(2);} 
+
+
+
+
+
+.footer div {height: 170px;}
+
+.footer div:nth-child(3), 
+.footer div:nth-child(4),
+.footer div:nth-child(5),
+.footer div:nth-child(6) {padding-top: 7%;}
+
+.robo img {width: 40%;}
+
+.footer a {text-decoration: none;
+ }
+
+
+.a11 {
+  display: block; transform: rotate(90deg);
+  float: right;
+  height: 100px;
+  width: 320px;
+  float: right;
+  position: relative;
+  left: 140px;
+  top:49px;
+  background-color: #bdcbd4;
+  margin: 0;
+  padding: 35px 50px 00px;
+}
+
+/* 3 строка выбор технологий */
+
+.tex {
+  width: 20%;
+  overflow: hidden;
+}
+.tex1 {width: 10%;}
+
+.tex, 
+.tex1 {
+  min-height:700px;
+  border-bottom: 1px solid #11151e;
+  border-top: 1px solid #11151e;
+  padding-top: 6%;    
+}
+
+
+
+.block-t {
+  height:auto;
+  padding: 5px;
+  border-bottom-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+}
+
+.block-t p {
+  background-color: white;
+  display: block;
+  min-height: 460px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding: 20px 8px 0px 15px;
+  overflow:hidden;
+  text-align: left;
+}
+
+.block-t h1 {padding: 15px 0px 15px 0px;}
+
+
+/* Новые курсы */
+
+
+.curs a {border: 3px solid #6dafcf;
+padding-top: 5px;
+    padding-bottom:5px;
+    display: block;
+width: 100%;
+border-radius: 15px;
+color: #020202;}
+
+.curs2 a {
+  font-size: 20px;
+  color: #020202;
+}
+
+
+
+.curs a:hover {
+  text-decoration: none;
+  border: 3px solid #f8931f;
+  background-color: #f8931f;
+    
+}
+
+a {font-family: rrr !important;}
+
+
+.img-curs {width: 100%;}
+/* Горизонтальная линия */
+.solid {
+  background-image:url(../images/111.png);
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.img-ivent {
+  width: 140%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.fl {float: left;}
+.fl-a {font-size: 15px;}
+.padnone {padding: 0px;}
+
+/* хакатон */
+
+.evimg {
+  display: block;
+  width: 100%;
+  height: 140px;
+  background-color: #bdcbd4;
+  border-radius: 30px;
+  padding-top: 20%;
+  font-size: 30px
+}
+
+
+.ev1 h1{
+  font-size: 35px;
+  font-family: 'rrfr';
+  top:-20px;
+  position: relative;
+}
+.ev2 p {font-size: 16px;
+    top:-40px;
+position: relative;}
+.fl-a {color: #bccdd7;
+font-size: 16px}
+
+.ev2 p {
+  font-size: 20px;
+  word-spacing: -2px;}
+.ev3 {top: -20px;}
+
+
+/* менторство */
+
+.ment {background-color: #f9f9f7;}
+.ment img, 
+.proect img {width: 60%;}
+.ment a {
+  float: left;
+  text-decoration: none;
+  color: black;
+  font-size: 15pt;
+  width: 50%;
+  padding: 2% 0px 2%;
+  border-radius: 15px;
+}
+.ment p {text-align: left;}
+.ment a:hover{background-color: white;}
+
+/* о проекте */
+.proect p,
+.proect h3 {text-align: left;}
+
+.proect h3 {
+  color: #6aafce;
+  padding-bottom: 20px;
+ }
+.proect li {
+  text-align: left;
+  padding: 0;
+  position: relative;
+  left: -20px;
+}
+
+
+
+/* контакты */
+
+h5 {
+  text-align: left;
+  font-size: 15pt;
+  padding-bottom: 10px;
+}
+
+h6 {
+  text-align: left;
+  font-size: 18pt;
+  padding-bottom: 10px;
+}
+.cont img {
+  width: 20%;
+  text-align: left;
+  float: left;
+  padding-right: 10px;
+}
+.cont img:hover {filter: sepia(2);} 
+
+
+/* размеры шрифтов */
+.fz-25pt {font-size: 25pt;}
+.block-t p, 
+.ment p {font-size: 15pt;}
+.proect li, 
+.a1 {font-size: 18px;}
+.footer a, 
+.proect h3{font-size: 20pt;}
+.robo h1 {font-size: 60pt;}
+h4 {font-size: 20pt;}
+
+/* пробел между блоками*/
+.nnnn {height: 50px;}
+
+.nnnn2 {height: 15px;}
+
+.end1,
+.end2, 
+.end3, 
+.end4 {
+  background-color:#6dafcf;
+  height:50px;}
+.end2{background-color:#bdcbd4;}
+.end3{background-color:#f8931f;}
+.end4{background-color:#666666;}
+
+/* вет шрифта */
+
+.c-black, a {color: #000002;}
+
+
+.row  {
+max-width: 1600px;}
+
+
+/* подсветка ссылок */
+a:hover {text-decoration: none;
+}
+
+/*цвета фонов */
+.bg-blue {background-color: #6dafcf;} 
+.bg-gray {background-color: #bdcbd4;}
+.bg-orange {background-color: #f8931f;}
+.bg-dark {background-color: #666666;}
+
+
+
+*{margin: 0 !important;}
+.m-a:hover,
+.a2-m:hover,
+.ev1 h1:hover{color: #bdcbd4;} 
+.fl-a:hover {color: #f8931f;} 
+.a11:hover {color: white;}
